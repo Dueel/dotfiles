@@ -1,0 +1,11 @@
+background "#282828"
+
+vertical true
+
+geometry 1x1-80+999
+
+grow_gravity SW 
+
+icon_gravity SW
+
+slot_size 32
