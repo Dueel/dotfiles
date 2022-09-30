@@ -28,7 +28,7 @@ Installation Guide for Configs
 ```bash
   yay -S spicetify-cli btop fish neofetch kitty polybar rofi picom stalonetray polybar-spotify-module lxappearance
   git clone https://github.com/Dueel/dotfiles.git
-  cd .dotfiles
+  cd dotfiles
   cp -r .config/* ~/.config/
   cp -r .local/* ~/.local/
   cp -r .themes/* ~/.themes/
