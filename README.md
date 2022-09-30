@@ -31,7 +31,7 @@ Installation Guide for Discord Theme
 - Installing the Theme
   - Copy the code in the .css folder
   - Go to user settings
-  - Scroll all they way down till you see this ![Screenshot](https://i.imgur.com/ugUnL9R.png)
+  - Scroll all they way down till you see this![Screenshot](https://i.imgur.com/ugUnL9R.png)
   - Click on it and select "Theming" and paste the .css code there
 
 Installation Guide for Spicetify theme
