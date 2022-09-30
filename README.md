@@ -11,6 +11,7 @@ This is very unfinshed btw
 - [Neofetch](https://github.com/dylanaraps/neofetch)
 - [Spicetify](https://spicetify.app/)
 - [OpenAsar](https://openasar.dev/)
+- [Kitty](https://sw.kovidgoyal.net/kitty/)
 
 ## Installation
 
@@ -20,7 +21,7 @@ Installation Guide for Configs
 
 
 ```bash
-  yay -S spicetify-cli btop fish neofetch
+  yay -S spicetify-cli btop fish neofetch kitty
   git clone https://github.com/Dueel/.dotfiles.git
   cd .dotfiles
   cp -r .config/* ~/.config/
