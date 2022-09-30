@@ -1,0 +1,14 @@
+[
+	{
+		"name": "Gruvtify",
+		"description": "Gruvtify",
+		"usercss": "Gruvtify/user.css",
+		"schemes": "Gruvtify/color.ini",
+		"authors": [
+			{
+				"name": "pjaspinski",
+				"url": "https://github.com/pjaspinski"
+			}
+		]
+	}
+]

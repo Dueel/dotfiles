@@ -4,8 +4,8 @@
     --text-normal: #ebdbb2;
     --background-primary: #32302F;
     --background-secondary: #3C3836;
-    --background-tertiary: #1d2021;
-    --background-secondary-alt: #282828;
+    --background-tertiary: #211E1D;
+    --background-secondary-alt: #211E1D;
     --background-floating: #32302F;	
     --channels-default: #ebdbb2;
     --deprecated-panel-background: #161818;
@@ -14,9 +14,9 @@
     --header-secondary: #c3ac96;
     --activity-card-background: #FFF;
     --scrollbar-auto-thumb: #ebdbb2;
-	--scrollbar-auto-track: #3C3836;
-	--scrollbar-thin-thumb: #ebdbb2;
-	--scrollbar-thin-track: transparent;
+	  --scrollbar-auto-track: #3C3836;
+	  --scrollbar-thin-thumb: #ebdbb2;
+	  --scrollbar-thin-track: transparent;
     --background-modifier-hover: #4e4845;
     --background-modifier-active: #4e4845;
     --background-modifier-selected: #665c54;
@@ -24,18 +24,18 @@
 }
 
 /* Popout / menu colors. */
-.da-popouts .da-container, .da-friendsTableHeader, .da-friendsTable, .da-autocomplete, .da-themedPopout, .da-header, .da-footer, .da-userPopout > *, .da-systemPad, .da-autocompleteHeaderBackground, .popout-3gby1q {
+.da-popouts .da-container, .da-friendsTableHeader, .da-friendsTable, .da-autocomplete, .da-themedPopout, .da-header, .da-footer, .da-userPopout > *, .da-systemPad, .da-autocompleteHeaderBackground, .popout-3gby1q, .contentWrapper-3vHNP2, .header-1ULbqO, .unicodeShortcut-3N8oDe {
   background-color: #3C3836;
   border-color: transparent !important;
 }
-.input-2m5SfJ {
-  background-color: #1d2021;
+.input-2m5SfJ, .list-obNEuP, .inner-1NoIT5 {
+  background-color: #211E1D;
 }
 .modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover {
 background-color: #665c54 !important;
 }
 
-.container-ZMc96U {
+.container-ZMc96U, .inspector-DFKXwB {
 background-color: #32302F !important;
 }
 
@@ -75,8 +75,8 @@ background-color: #32302F !important;
 }
 
 /* Recolor the emoji button in the chat bar to match the color scheme. */
-.da-emojiButtonNormal .da-contents .da-sprite {
-    filter: sepia(1) !important;
+.headerLabel-1g790w {
+  color: var(--text-normal) !important;
 }
 
 
