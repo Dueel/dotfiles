@@ -1,6 +1,7 @@
 # Dotfiles
 
 My dotfiles for bspwm based on the Gruvbox color scheme
+
 This is very unfinshed btw
 
 ## Dependencies
@@ -42,5 +43,5 @@ Installation Guide for Spicetify theme
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://i.imgur.com/G0kZRd1.png)
 
