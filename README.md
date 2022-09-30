@@ -84,7 +84,7 @@ Installation Guide for the GTK theme
 
 ## Screenshots
 
-![App Screenshot](https://i.imgur.com/G0kZRd1.png)
+![App Screenshot](https://i.imgur.com/UfYAV4D.png)
 
 
 ## Acknowledgements
