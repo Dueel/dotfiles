@@ -1,7 +1,7 @@
 # Dotfiles
 
 My dotfiles for bspwm based on the Gruvbox color scheme
-
+This is very unfinshed btw
 
 ## Dependencies
 
