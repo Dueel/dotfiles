@@ -1,2 +1,2 @@
 # .dotfiles
-My bspwm dotfiles
+My bspwm dotfiles based on the theme Gruvbox
