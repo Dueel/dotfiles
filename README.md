@@ -27,11 +27,12 @@ Installation Guide for Configs
 
 ```bash
   yay -S spicetify-cli btop fish neofetch kitty polybar rofi picom stalonetray polybar-spotify-module lxappearance
-  git clone https://github.com/Dueel/.dotfiles.git
+  git clone https://github.com/Dueel/dotfiles.git
   cd .dotfiles
   cp -r .config/* ~/.config/
   cp -r .local/* ~/.local/
   cp -r .themes/* ~/.themes/
+  cp -r .stalonetrayrc /home/$USER/
 ```
 Installation Guide for Fish Shell and Theme
 - Follow the "Installation Guide for Configs" then do this:
