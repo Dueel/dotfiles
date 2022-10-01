@@ -25,7 +25,7 @@ This is very unfinshed btw
 Warning!!! This guide is only for Arch based distributions and for a 1920x1080 monitor)
 
 Installation Guide for Configs
-
+(Will Make a Script Soon)
 
 ```bash
   yay -S spicetify-cli btop fish neofetch kitty polybar rofi picom stalonetray polybar-spotify-module lxappearance
