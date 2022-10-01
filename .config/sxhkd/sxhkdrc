@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + a
-	/home/$USER/.config/rofi/launchers/type-2/launcher.sh
+	/home/$USER/.config/rofi/launcher/launcher.sh
 #	rofi -modi drun -show drun -line-padding 4 \
 #                -columns 2 -padding 50 -hide-scrollbar -terminal xfce4-terminal \
 #              -show-icons -drun-icon-theme "Qogir-dark" -font "Droid Sans Regular 10"
