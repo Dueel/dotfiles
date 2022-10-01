@@ -28,7 +28,7 @@ Installation Guide for Configs
 (Will Make a Script Soon)
 
 ```bash
-  yay -S spicetify-cli btop fish neofetch kitty polybar rofi picom-pijulius-git stalonetray polybar-spotify-module lxappearance-gtk3 nitrogen nautilus
+  yay -S spicetify-cli btop fish neofetch kitty polybar rofi picom-pijulius-git stalonetray polybar-spotify-module lxappearance-gtk3 nitrogen nautilus xdo spotify disocord-canary
   git clone https://github.com/Dueel/dotfiles.git
   cd dotfiles
   mv ~/.config/polybar/ ~/.config/polybar.old/
@@ -39,7 +39,7 @@ Installation Guide for Configs
   mv ~/.config/kitty/ ~/.config/kitty.old/
   cp -r .config/* ~/.config/
   cp -r .local/* ~/.local/
-  cp -r .themes/* ~/.themes/
+  sudo cp -r .themes/* /user/share/themes/
   cp -r .stalonetrayrc /home/$USER/
 ```
 Installation Guide for Fish Shell and Theme

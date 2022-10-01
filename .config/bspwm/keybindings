@@ -17,11 +17,11 @@ Utility Keyboard Shortcuts
 
 ###################
 
--> Open terminal (xfce4-terminal)
+-> Open terminal (kitty)
 Super + Return
 
 -> App launcher (Rofi)
-Super + d
+Super + a
 
 -> Window switcher
 Super + Ctrl + d

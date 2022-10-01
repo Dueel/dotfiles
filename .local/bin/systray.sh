@@ -4,7 +4,7 @@
 
 hidden=/tmp/syshide.lock
 
-file="/home/duel/.config/polybar/user_modules.ini"
+file="~/.config/polybar/user_modules.ini"
 
 
 
