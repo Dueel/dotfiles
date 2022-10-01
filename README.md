@@ -2,7 +2,7 @@
 
 My dotfiles for bspwm based on the Gruvbox color scheme
 
-Tested with stock bspwm from EndeavourOS
+Tested with Raw Arch
 
 This is very unfinshed btw
 
