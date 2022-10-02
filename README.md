@@ -2,7 +2,7 @@
 
 My dotfiles for bspwm based on the Gruvbox color scheme
 
-Tested with stock bspwm from EndeavourOS
+Tested with fresh Arch Linux install
 
 This is very unfinshed btw
 
@@ -25,10 +25,10 @@ This is very unfinshed btw
 Warning!!! This guide is only for Arch based distributions and for a 1920x1080 monitor)
 
 Installation Guide for Configs
-(Will Make a Script Soon)
+(Will Make a Script Soon (Would be nice if someone can help make a script))
 
 ```bash
-  yay -S spicetify-cli btop fish neofetch kitty polybar rofi picom-pijulius-git stalonetray polybar-spotify-module lxappearance-gtk3 nitrogen nautilus xdo spotify disocord-canary
+  yay -S spicetify-cli btop fish neofetch kitty polybar rofi picom-pijulius-git stalonetray polybar-spotify-module lxappearance-gtk3 nitrogen nautilus xdo spotify discord-canary
   git clone https://github.com/Dueel/dotfiles.git
   cd dotfiles
   mv ~/.config/polybar/ ~/.config/polybar.old/
@@ -39,7 +39,8 @@ Installation Guide for Configs
   mv ~/.config/kitty/ ~/.config/kitty.old/
   cp -r .config/* ~/.config/
   cp -r .local/* ~/.local/
-  sudo cp -r .themes/* /user/share/themes/
+  mkdir /home/$USER/.themes/
+  cp -r .themes/* /home/$USER/themes/
   cp -r .stalonetrayrc /home/$USER/
 ```
 Installation Guide for Fish Shell and Theme
@@ -48,6 +49,9 @@ Installation Guide for Fish Shell and Theme
 ```bash
   chsh -s $(which fish)
   curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+```
+- Then run:
+```bash
   omf install lambda
 ```
 
@@ -74,8 +78,6 @@ Installation Guide for Spicetify theme
      ```
 
 Installation Guide for Polybar/Rofi
-
-- This Polybar theme modifed very little is from the forest theme in [this](https://github.com/adi1090x/polybar-themes/)
 
 - Installing the Bar
     - Follow the "Installation Guide for Configs"
@@ -106,6 +108,8 @@ Installation Guide for the GTK theme
 - [Rofi](https://github.com/adi1090x/rofi/)
     - Rofi things came from this
 - [Picom and stalonetray configs](https://github.com/beyond9thousand/dotfiles)
-    - The Picom and stalonetray configs came from here
+    - The Picom and stalonetray configs came from here (Really Nice Dotfiles)
 - [Neofetch Themes](https://github.com/chick2d/neofetch-themes/)
     - Neofetch Theme
+- [Gruvbox GTK Theme](https://store.kde.org/p/1681313/)
+    - Gruvbox-Dark-B came from here
