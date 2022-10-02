@@ -2,7 +2,11 @@
 
 My dotfiles for bspwm based on the Gruvbox color scheme
 
+<<<<<<< HEAD
 Tested with fresh Arch Linux install
+=======
+Tested with Raw Arch
+>>>>>>> 0e73dc3f005f8a879c19bb43723bda2c73cbf444
 
 This is very unfinshed btw
 
