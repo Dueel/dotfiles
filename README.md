@@ -28,7 +28,7 @@ Installation Guide for Configs
 (Will Make a Script Soon (Would be nice if someone can help make a script))
 
 ```bash
-  yay -S spicetify-cli btop fish neofetch kitty polybar rofi picom-pijulius-git stalonetray polybar-spotify-module lxappearance-gtk3 nitrogen nautilus xdo spotify discord-canary
+  yay -S spicetify-cli btop fish neofetch kitty polybar rofi picom-pijulius-git stalonetray polybar-spotify-module lxappearance-gtk3 nitrogen nautilus xdo spotify discord-canary dunst
   git clone https://github.com/Dueel/dotfiles.git
   cd dotfiles
   mv ~/.config/polybar/ ~/.config/polybar.old/
