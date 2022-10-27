@@ -1,14 +1,27 @@
+For the latest version of Endeavour OS Bspwm Edition configs, visit our GitHub repository
+https://github.com/EndeavourOS-Community-Editions/bspwm
+
+For a quick start guide, read our wiki page
+https://discovery.endeavouros.com/window-tiling-managers/bspwm-2/2021/03/
+
+To share your suggestions, please visit our forum thread
+https://forum.endeavouros.com/t/bspwm-edition/8511
+
+
+
+
+
 ###################
 
 Utility Keyboard Shortcuts
 
 ###################
 
--> Open terminal (kitty)
+-> Open terminal (xfce4-terminal)
 Super + Return
 
 -> App launcher (Rofi)
-Super + a
+Super + A
 
 -> Window switcher
 Super + Ctrl + d
@@ -33,6 +46,10 @@ Super + w
 
 -> Launch Thunar
 Super + n
+
+
+
+
 
 ###################
 

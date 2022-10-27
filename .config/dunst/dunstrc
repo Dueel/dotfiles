@@ -17,7 +17,7 @@
     #
     # If this option is set to mouse or keyboard, the monitor option
     # will be ignored.
-    follow = mouse
+    follow = none
 
     ### Geometry ###
 
@@ -27,13 +27,13 @@
     width = 400
 
     # The maximum height of a single notification, excluding the frame.
-    height = 300
+    height = 500
 
     # Position the notification in the top right corner
-    origin = top-right
+    origin = bottom-right
 
     # Offset from the origin
-    offset = 5x10
+    offset = 50x50
 
     # Scale factor. It is auto-detected if value is 0.
     scale = 0
@@ -68,7 +68,7 @@
     # The transparency of the window.  Range: [0; 100].
     # This option will only work if a compositing window manager is
     # present (e.g. xcompmgr, compiz, etc.). (X11 only)
-    transparency = 10
+    transparency = 0
 
     # Draw a line of "separator_height" pixel height between two
     # notifications.
@@ -90,7 +90,7 @@
     frame_width = 3
 
     # Defines color of the frame around the notification window.
-    frame_color = "#EBDBB2"
+    frame_color = "#8AADF4"
 
     # Size of gap to display between notifications - requires a compositor.
     # If value is greater than 0, separator_height will be ignored and a border
@@ -118,7 +118,7 @@
 
     ### Text ###
 
-    font = JetBrains Mono Nerd Font
+    font = Sofia Pro 16
 
     # The spacing between lines.  If the height is smaller than the
     # font height, it will get raised to the font height.
@@ -191,29 +191,22 @@
 
     ### Icons ###
 
-    # Recursive icon lookup. You can set a single theme, instead of having to
-    # define all lookup paths.
-    enable_recursive_icon_lookup = true
-
-    # Set icon theme (only used for recursive icon lookup)
-    icon_theme = Adwaita
-    # You can also set multiple icon themes, with the leftmost one being used first.
-    # icon_theme = "Adwaita, breeze"
-
     # Align icons left/right/top/off
     icon_position = left
-
     # Scale small icons up to this size, set to 0 to disable. Helpful
     # for e.g. small files or high-dpi screens. In case of conflict,
     # max_icon_size takes precedence over this.
-    min_icon_size = 32
+    min_icon_size = 128
 
     # Scale larger icons down to this size, set to 0 to disable
-    max_icon_size = 128
+    max_icon_size = 100
 
-    # Paths to default icons (only neccesary when not using recursive icon lookup)
-    icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
+    # Paths to default icons.
+    icon_path = /usr/share/icons/gnome/128x128/status/:/usr/share/icons/gnome/128x128/devices/
+    icon_theme = "Papirus, Adwaita"
+    enable_recursive_icon_lookup = true
 
+    always_run_scripts = true
     ### History ###
 
     # Should a notification popped up from history be sticky or timeout
@@ -245,7 +238,7 @@
     # corners.
     # The radius will be automatically lowered if it exceeds half of the
     # notification height to avoid clipping text and/or icons.
-    corner_radius = 8
+    corner_radius = 15
 
     # Ignore the dbus closeNotification message.
     # Useful to enforce the timeout set by dunst configuration. Without this
@@ -291,8 +284,8 @@
     # These values can be strung together for each mouse event, and
     # will be executed in sequence.
     mouse_left_click = close_current
-    mouse_middle_click = do_action, close_current
-    mouse_right_click = close_all
+    mouse_middle_click = context
+    mouse_right_click = do_action
 
 # Experimental features that may or may not work correctly. Do not expect them
 # to have a consistent behaviour across releases.
@@ -308,24 +301,29 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#32302F"
-    foreground = "#EBDBB2"
+    background = "#24273A"
+    foreground = "#CAD3F5"
+    frame_color = "#CAD3F5"
     timeout = 10
+    script = ~/.scripts/dunst/sound-normal.sh
     # Icon for notifications with low urgency, uncomment to enable
     #default_icon = /path/to/icon
 
 [urgency_normal]
-    background = "#32302F"
-    foreground = "#EBDBB2"
+    background = "#24273A"
+    foreground = "#CAD3F5"
+    frame_color = "#CAD3F5"
     timeout = 10
+    script = ~/.scripts/dunst/sound-normal.sh
     # Icon for notifications with normal urgency, uncomment to enable
     #default_icon = /path/to/icon
 
 [urgency_critical]
-    background = "#900000"
-    foreground = "#ffffff"
-    frame_color = "#ff0000"
+    background = "#24273A"
+    foreground = "#CAD3F5"
+    frame_color = "#F5A97F"
     timeout = 0
+    script = ~/.scripts/dunst/sound-critical.sh
     # Icon for notifications with critical urgency, uncomment to enable
     #default_icon = /path/to/icon
 
@@ -442,11 +440,6 @@
 #    summary = *says*
 #    urgency = critical
 #
-[Spotify]
-    appname=spotify
-    background = "#013A61"
-    foreground = "#ffffff"
-
 #[twitter]
 #    appname = Pidgin
 #    summary = *twitter.com*
@@ -456,4 +449,14 @@
 #    appname = "some_volume_notifiers"
 #    set_stack_tag = "volume"
 #
-# vim: ft=cfg
+[logger]
+summary = "*"
+script = "~/.config/eww/Main/scripts/logger.zsh"
+
+[spotify]
+summary = "*"
+script = "~/.scripts/music-art"
+
+[spotify-icon]
+appname = "Spotify"
+icon = "~/.cache/temp.png"

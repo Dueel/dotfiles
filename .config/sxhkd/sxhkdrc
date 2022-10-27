@@ -27,7 +27,7 @@ super + shift + d
 
 # power-menu 
 super + shift + e
-     ~/.config/polybar/scripts/rofi/powermenu.rasi
+     ~/.config/rofi/powermenu.sh
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -138,6 +138,7 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
 #
 # Special hotkeys
 #
@@ -171,6 +172,7 @@ Print
 
 super + Print
   flameshot gui
+# ~/.config/bspwm/scripts/screenshot.sh
 
 # Shortcuts
 super + w 

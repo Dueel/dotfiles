@@ -15,7 +15,7 @@ This is very unfinshed btw
 - [OpenAsar](https://openasar.dev/)
 - [Kitty](https://sw.kovidgoyal.net/kitty/)
 - [Polybar](https://github.com/polybar/polybar)
-- [Picom pijulius fork](https://github.com/pijulius/picom)
+- [Picom Animations](https://github.com/dccsillag/picom)
 - [Rofi](https://github.com/davatorium/rofi)
 - [OhMyFish](https://github.com/oh-my-fish/oh-my-fish)
 - [stalonetray](https://github.com/kolbusa/stalonetray)
@@ -39,8 +39,6 @@ Installation Guide for Configs
   mv ~/.config/kitty/ ~/.config/kitty.old/
   cp -r .config/* ~/.config/
   cp -r .local/* ~/.local/
-  mkdir /home/$USER/.themes/
-  cp -r .themes/* /home/$USER/themes/
   cp -r .stalonetrayrc /home/$USER/
 ```
 Installation Guide for Fish Shell and Theme
@@ -60,38 +58,20 @@ Installation Guide for Discord Theme
 - Install OpenAsar using [this](https://openasar.dev/)
 
 - Installing the Theme
-  - Copy the code in the .css folder
+  - Copy [this](https://raw.githubusercontent.com/catppuccin/discord/main/themes/macchiato.theme.css)
   - Go to user settings
   - Scroll all they way down till you see this
   - ![Screenshot](https://i.imgur.com/ugUnL9R.png)
   - Click on it and select "Theming" and paste the .css code there
-  - (If you are better at Discord Theming and want to fix up some things send a pull request it would be very helpful)
 
 Installation Guide for Spicetify theme
 
-- Follow this [guide](https://spicetify.app/docs/advanced-usage/installation#aur)
-- Once installed run in terminal
-     ```bash
-     spicetify config current_theme Gruvtify
-     spicetify config color_scheme gruvbox
-     spicetify restore apply
-     ```
-
-Installation Guide for Polybar/Rofi
-
-- Installing the Bar
-    - Follow the "Installation Guide for Configs"
-
-- Launching the bar
-    - Go to ~/.config/polybar/ and run the launch.sh located inside the folder
-
-- Installing Rofi Launcher
-    - Follow the "Installation Guide for Configs"
-    - And thats it (If you are using my bad sxhkdrc then use Super + A to open the launcher)
+- Follow this [guide](https://github.com/catppuccin/spicetify)
 
 Installation Guide for the GTK theme
   - Open lxappearance and set the theme there
 
+Now Just Restart And It Should All Work!
 ## Screenshots
 
 ![App Screenshot](https://i.imgur.com/UfYAV4D.png)
@@ -99,10 +79,7 @@ Installation Guide for the GTK theme
 
 ## Acknowledgements
 
-- [gruvbox-discord](https://github.com/iamdevnitesh/gruvbox-discord)
-    - This theme was modifed and placed into here
-- [Spicetify Sleek Theme](https://github.com/spicetify/spicetify-themes/tree/master/Sleek)
-    - Gruvbox Spotify Theme was based on this
+
 - [Polybar Themes](https://github.com/adi1090x/polybar-themes/)
     - Polybar came from this
 - [Rofi](https://github.com/adi1090x/rofi/)
@@ -111,5 +88,3 @@ Installation Guide for the GTK theme
     - The Picom and stalonetray configs came from here (Really Nice Dotfiles)
 - [Neofetch Themes](https://github.com/chick2d/neofetch-themes/)
     - Neofetch Theme
-- [Gruvbox GTK Theme](https://store.kde.org/p/1681313/)
-    - Gruvbox-Dark-B came from here
