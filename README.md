@@ -1,10 +1,7 @@
 # Dotfiles
 
-My dotfiles for bspwm based on the Gruvbox color scheme
-
-Tested with fresh Arch Linux install
-
-This is very unfinshed btw
+My Dots For The Catppuccin Color Scheme
+Tested with fresh Arch Linux install (This guide is really for me because I forget things whenever I reinstall arch)
 
 ## All The Things Used
 
@@ -29,7 +26,7 @@ Installation Guide for Configs
 
 ```bash
   yay -S spicetify-cli btop fish neofetch kitty polybar rofi picom-pijulius-git stalonetray polybar-spotify-module lxappearance-gtk3 nitrogen nautilus xdo spotify discord-canary dunst
-  git clone https://github.com/Dueel/dotfiles.git
+  git clone https://github.com/Dueel/dotfiles.git -b catppuccin-bspwm
   cd dotfiles
   mv ~/.config/polybar/ ~/.config/polybar.old/
   mv ~/.config/rofi/ ~/.config/rofi.old/
@@ -52,10 +49,13 @@ Installation Guide for Fish Shell and Theme
 ```bash
   omf install lambda
 ```
+Installation Guide for GTK Theme
+  - Install The Macchiato Theme Following This [guide](https://github.com/catppuccin/gtk)
+  - Then Open lxappearance and set the theme there
 
 Installation Guide for Discord Theme
-- Have Discord Installed (I should not have to say this lol)
-- Install OpenAsar using [this](https://openasar.dev/)
+  - Have Discord Installed (I should not have to say this lol)
+  - Install OpenAsar using [this](https://openasar.dev/)
 
 - Installing the Theme
   - Copy [this](https://raw.githubusercontent.com/catppuccin/discord/main/themes/macchiato.theme.css)
@@ -65,11 +65,7 @@ Installation Guide for Discord Theme
   - Click on it and select "Theming" and paste the .css code there
 
 Installation Guide for Spicetify theme
-
-- Follow this [guide](https://github.com/catppuccin/spicetify)
-
-Installation Guide for the GTK theme
-  - Open lxappearance and set the theme there
+  - Install The Macchiato Theme Following This [guide](https://github.com/catppuccin/spicetify)
 
 Now Just Restart And It Should All Work!
 ## Screenshots
@@ -78,13 +74,11 @@ Now Just Restart And It Should All Work!
 
 
 ## Acknowledgements
-
-
+- [Catppuccin](https://github.com/catppuccin/catppuccin)
+    - Everything was came from and based from this
 - [Polybar Themes](https://github.com/adi1090x/polybar-themes/)
     - Polybar came from this
 - [Rofi](https://github.com/adi1090x/rofi/)
     - Rofi things came from this
-- [Picom and stalonetray configs](https://github.com/beyond9thousand/dotfiles)
-    - The Picom and stalonetray configs came from here (Really Nice Dotfiles)
 - [Neofetch Themes](https://github.com/chick2d/neofetch-themes/)
     - Neofetch Theme
