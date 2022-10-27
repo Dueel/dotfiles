@@ -70,7 +70,7 @@ Installation Guide for Spicetify theme
 Now Just Restart And It Should All Work!
 ## Screenshots
 
-![App Screenshot](https://imgur.com/a/WsGDOgY)
+![App Screenshot](https://i.imgur.com/znlrJMw.jpeg)
 
 
 ## Acknowledgements
