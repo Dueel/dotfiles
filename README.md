@@ -70,12 +70,12 @@ Installation Guide for Spicetify theme
 Now Just Restart And It Should All Work!
 ## Screenshots
 
-![App Screenshot](https://i.imgur.com/UfYAV4D.png)
+![App Screenshot](https://i.imgur.com/znlrJMw.jpeg)
 
 
 ## Acknowledgements
 - [Catppuccin](https://github.com/catppuccin/catppuccin)
-    - Everything was came from and based from this
+    - Basically everything came from and was based from this
 - [Polybar Themes](https://github.com/adi1090x/polybar-themes/)
     - Polybar came from this
 - [Rofi](https://github.com/adi1090x/rofi/)
